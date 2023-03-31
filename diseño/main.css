@@ -37,9 +37,10 @@
 
 body {
     background-color: rgb(175, 140, 207);
+    overflow-x: hidden;
 }
 
-#parrafo1{
+.color-blanco{
     color: aliceblue;
     text-align: center;
 }
