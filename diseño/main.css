@@ -44,3 +44,18 @@ body {
     color: aliceblue;
     text-align: center;
 }
+
+.nav-link{
+    transition: all 0.5s;
+    position: relative;
+}
+
+.nav-link:hover::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: rgb(136, 170, 84);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
