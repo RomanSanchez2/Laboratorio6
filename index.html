@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <img src="imgs/FB_IMG_1676299096228.jpg" alt="" id="GatoGuitarra">
-          <a class="navbar-brand" href="#">Laboratorio 6</a>
+          <a class="navbar-brand" href="index.html">Laboratorio 6</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,8 +33,32 @@
         </div>
       </nav>
       <!--Contenido-->
-      <h1>Aqui agregare una imagen  :D</h1>
-      <img src="imgs/20230210_144627.jpg" alt="" id="GatoFoto">
+      <img class="bg-img" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1443&q=100" alt="img-bg">
+      <!--Inicio del carrusel-->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/depositphotos_5981131-stock-photo-small-kittens-in-straw-basket.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/20230210_144627.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" id="GatoMusica">
+            <img src="imgs/FB_IMG_1676299096228.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Fin del carrusel-->
+      <p id="parrafo1">en esta pagina no se si debe de tener informacion asi que solamente dejare un carrusel con fotos de gatos ya que no se
+      muy bien que agregar entonces lo dejare asi</p>
 
     <script src="boostrap/bootstrap.bundle.min.js"></script>
 </body>
