@@ -3,3 +3,17 @@
     margin-left: 20px;
     border: 2px;
 }
+
+.Color-edit {
+    color: black;
+}
+
+.gatofoto {
+    width: 400px;
+    height: 400px;
+}
+
+.Color {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
