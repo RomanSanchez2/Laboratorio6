@@ -12,3 +12,8 @@
     height: 50%;
     object-fit: cover;
 }
+
+body {
+    background-color: rgb(44, 94, 61);
+    overflow-x: hidden;
+}
