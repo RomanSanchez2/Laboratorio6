@@ -1,43 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
-    <link rel="stylesheet" href="diseño/main.css">
-    <title>Laboratorio 6</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+  <link rel="stylesheet" href="diseño/main.css">
+  <link rel="stylesheet" href="diseño/pagina 3.css">
+  <title>Laboratorio 6/Pagina 3</title>
 </head>
+
 <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <img src="imgs/FB_IMG_1676299096228.jpg" alt="" id="GatoGuitarra">
-          <a class="navbar-brand" href="index.html">Laboratorio 6</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="pagina 1.html">Pagina 1</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pagina 2.html">Pagina 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pagina 3.html">Pagina 3</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!--Contenido-->
-      <img class="bg-img" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1443&q=100" alt="img-bg">
-      
-      <!--Librerias de JavaScript-->
-      <script src="boostrap/bootstrap.bundle.min.js"></script>
-      <script src="Funcionalidad/main.js"></script>
-      
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="imgs/FB_IMG_1676299096228.jpg" alt="" id="GatoGuitarra">
+      <a class="navbar-brand" href="index.html">Laboratorio 6</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="pagina 1.html">Pagina 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pagina 2.html">Pagina 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pagina 3.html">Pagina 3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Contenido-->
+  <img class="bg-img"
+    src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1443&q=100"
+    alt="img-bg">
+  <!--OffCanvas-->
+  <a class="btn btn-warning" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+    aria-controls="offcanvasExample">
+    Informacion
+  </a>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Este OffCanva lo usare para poner mi informacion y para poder navegar a cualquier parte de la pagina antes vista. Espero que esto
+        sirva para obtener una calificacion aprobatoria ya que me costo algo, aun no utilizo el madafaker JS para poner el color de la pagina en la que me encuentro en 
+        este momento pero tendre que ver que es lo que puedo hacer para eso, tengo algunas ideas que aun no las llevo a cabo pero intentare hacerlo.  
+        Datos: Roman Maximiliano Sanchez Padilla 1997290
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+          data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="index.html">Volver al Inicio</a></li>
+          <li><a class="dropdown-item" href="pagina 1.html">Volver a la Pagina 1</a></li>
+          <li><a class="dropdown-item" href="pagina 2.html">Volver a la Pagina 2</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--Librerias de JavaScript-->
+  <script src="boostrap/bootstrap.bundle.min.js"></script>
+  <script src="Funcionalidad/main.js"></script>
+
 </body>
+
 </html>

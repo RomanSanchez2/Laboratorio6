@@ -1,9 +1,15 @@
 .accordion {
     margin-top: 25px;
     margin-left: 350px;
+    border: 2px;
 }
 
 .alert {
     margin-top: 150px;
     position: relative;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
 }
