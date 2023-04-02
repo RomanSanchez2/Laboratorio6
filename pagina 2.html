@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="boostrap/bootstrap.min.css">
     <link rel="stylesheet" href="diseño/main.css">
-    <title>Laboratorio 6</title>
+    <link rel="stylesheet" href="diseño/pagina 2.css">
+    <title>Laboratorio 6/Pagina 2</title>
 </head>
 <body>
     <!--Navbar-->
@@ -34,7 +35,49 @@
       </nav>
       <!--Contenido-->
       <img class="bg-img" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1443&q=100" alt="img-bg">
-      
+      <!--Acordion-->
+      <div class="accordion col-lg-6" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Sabias que? #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>¿Cual es el gato mas famoso?</strong> Grumpy Cat. El popular gato gruñón tienen más de 2.6 millones de seguidores en Instagram. Con su reconocible expresión facial debida al enanismo felino y una maloclusión en mandíbula, Grumpy Cat, se cuela en el puesto número 1 de nuestra lista de gatos más famosos.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Sabias que? #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>¿Que significan el ronroneo de los gatos?</strong>es un mecanismo de comunicación propio de los gatos que sirve para expresar calma, placer y comportamiento amistoso. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Sabias que? #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>¿Cual es el gato mas caro del mundo?</strong>100.000 euros. Ese es el precio del gato Ashera, un felino exclusivo que se puede reproducir tan solo en un laboratorio. Esta raza fue creada de manera artificial hace tan solo unos años y se trata de un animal estéril, por lo que no se puede reproducir por sí mismo.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Alerta-->
+      <div class="alert alert-success" role="alert">
+        Si quieres ver mas acerca de los videos de los gatos mas caros del mundo <a href="https://www.youtube.com/watch?v=406lkIetamU" class="alert-link">da click aqui</a>. para que te redireccione al video.
+      </div>
       <!--Librerias de JavaScript-->
       <script src="boostrap/bootstrap.bundle.min.js"></script>
       <script src="Funcionalidad/main.js"></script>
